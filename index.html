@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gourmet Lunch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">GourmetLunch</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Premium Lunch Delivered</h1>
+    <p>Fresh. Healthy. Delicious.</p>
+    <button onclick="scrollToSection('menu')">Explore Menu</button>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Signature Dishes</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?salad" alt="Salad">
+        <h3>Fresh Green Salad</h3>
+        <p>$12.99</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?chicken" alt="Chicken">
+        <h3>Grilled Chicken Bowl</h3>
+        <p>$14.99</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?sushi" alt="Sushi">
+        <h3>Sushi Bento</h3>
+        <p>$16.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Why Choose Us</h2>
+    <p>We deliver chef-crafted meals made from organic, locally sourced ingredients. Quality and taste are our top priorities.</p>
+  </section>
+
+  <section id="order" class="order">
+    <h2>Ready to Order?</h2>
+    <button>Order Now</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GourmetLunch. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
